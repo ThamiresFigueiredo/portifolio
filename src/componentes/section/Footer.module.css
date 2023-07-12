@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer img {
+    width: 200px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #ea086e;
+}
+
+.footer li {
+    margin-left: 15px;
+}
+
+.footer li:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s;
+    color: #ea086e;
+}
+
+.footer p {
+    font-family: Prompt;
+    margin: 25px;
+}
